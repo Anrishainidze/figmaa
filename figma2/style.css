@@ -1,0 +1,66 @@
+nav{
+    width:790px;
+    margin:0 auto;
+}
+.box__layout{
+    width:1500px;
+    margin:0 auto;
+}
+.nav_items ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+    justify-content:space-between;
+}
+
+.col-6{
+    width:180%;
+}
+
+.header{
+    font-weight: 700;
+font-size: 60px;
+line-height: 24px;
+
+
+letter-spacing: -1px;
+
+
+color: #2F2E41;
+ 
+}
+
+.container{
+    display:flex;
+}
+.paragraph{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+
+
+color: #9893A3;
+}
+ 
+.col-6{
+    width:214%
+}
+
+.header{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2F2E41;
+}
+
+
+.btn{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #6C63FF;
+}

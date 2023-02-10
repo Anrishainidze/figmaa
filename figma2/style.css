@@ -41,8 +41,13 @@ img{
     color:#6C63FF;
 }
 .btn.full{
-    background-color:#6C63FF;
-    color:white;
+    padding: 16px 30px;
+    gap: 10px;
+    width: 140px;
+    height: 51px;
+    background: #6C63FF;
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
 }
 
 .col-6{
@@ -162,3 +167,5 @@ img{
     text-align:center;
     color:black;
 }
+
+

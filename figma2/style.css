@@ -1,3 +1,8 @@
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
 nav{
     width:1280px;
     margin:0 auto;
@@ -5,6 +10,7 @@ nav{
 .bot__layout{
     width:1280px;
     margin:0 auto;
+    
 }
 img{
     width:100%;
@@ -16,6 +22,7 @@ img{
 .container{
     display:flex;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 .nav__items ul{
     display:flex;
@@ -71,6 +78,8 @@ img{
 }
 .row{
     display:flex;
+    flex-wrap: wrap;
+    
 }
 .clients__img__container{
     width:50%;
@@ -87,13 +96,11 @@ img{
     align-items:center;
 }
 .justify-between{
-    justify-content: :space-between;
+    justify-content:space-between;
 }
 .mt-220{
     margin-top:220px;
 }
-
-
 .learn_more{
     background: rgb(84,30,209);
     background: linear-gradient(90deg, rgba(84,30,209,0.6755077030812324) 42%, rgba(2,0,36,1) 43%, rgba(0,212,255,1) 100%);
@@ -103,26 +110,31 @@ img{
 }
 .starter{
     background: rgba(236, 235, 255, 0.3);
-    border-radius: 2px;  
+    border-radius: 2px;
     display:flex;
     flex-direction: column;
     align-items:center;
     padding-top:46px;
-    padding-bottom:46px;
-    padding-left:120;
-    padding-right:180;
+    padding-bottom: 46px;
+    padding-left:110px;
+    padding-right:110px;
 }
+
+
 .starter p{
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 18px;
     text-align: center;
     color: #717082;
 }
 .starter h4{
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 56px;
     text-align: center;
     letter-spacing: -2px;
     color: #2F2E41;
@@ -130,25 +142,29 @@ img{
 }
 .premium{
     background: #6C63FF;
+
 }
 .premium p{
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-    color: white;
+    color: white
 }
 .premium h4{
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 56px;
     text-align: center;
     letter-spacing: -2px;
-    color: #fff;
+    color:white;
     margin:30px;
 }
 .premium .btn{
-    background-color:white;
+    background-color: white;
     padding-left:47px;
     padding-right:47px;
     width:186px;
@@ -157,15 +173,78 @@ img{
     font-weight:400;
     font-size:18px;
     line-height:56px;
-    text-align:center;
-    color:white
+    text-align;center;
+    color:white;
 }
 .month_premium{
+    color:black;
     font-weight:400;
     font-size:18px;
     line-height:56px;
-    text-align:center;
-    color:black;
+    text-align;center;
+    color:rgb(3, 3, 3);
+}
+.blog_header{
+    font-size:60px;
+}
+.lets__talk{
+    background: #2F2E41;
+    padding:84px;
 }
 
+.lets__talk h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.col-3{
+    width:25%
+}
+footer{
+    background: rgba(236, 235, 255, 0.6);;
+}
+.footer__container{
+    padding-top:244px;
+    padding-left:270px;
+    padding-right:270px;
+    padding-bottom:40px
+}
+.copyright_container{
+    padding-left:80px;
+    padding-right:80px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        display:none;
+    }
+    .bot__layout{
+        width:340px;
+    }
+    .clients{
+        width:340px;
+    }
+    .col-12{
+        width:100%;
+    }
+    .footer__container{
+        padding:0;
+    }
+    .col-xs-6{
+        width:50%;
+    }
+    .copyright_container{
+        padding:0;
+    }
+    .header{
+        font-size: 60px;
+    }
+    .col-2{
+        width:33.33%;
+    }
+}
 

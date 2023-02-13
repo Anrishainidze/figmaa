@@ -7,7 +7,7 @@ nav{
     width:1280px;
     margin:0 auto;
 }
-.bot__layout{
+.box__layout{
     width:1280px;
     margin:0 auto;
     
@@ -222,7 +222,7 @@ footer{
     nav{
         display:none;
     }
-    .bot__layout{
+    .box__layout{
         width:340px;
     }
     .clients{
